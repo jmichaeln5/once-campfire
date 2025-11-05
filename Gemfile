@@ -46,7 +46,7 @@ gem "thruster"
 group :development, :test do
   gem "debug"
   gem "rubocop-rails-omakase", require: false
-  gem "faker", require: false
+  gem "faker"
   gem "brakeman", require: false
 end
 
@@ -56,3 +56,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webmock", require: false
 end
+
+gem "colorize", "~> 1.1"
