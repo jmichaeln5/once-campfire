@@ -3,7 +3,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Rails
-gem "rails", github: "rails/rails", branch: "main"
+gem "rails", "~> 8.0.2"
 gem "ostruct"
 gem "benchmark"
 
@@ -59,3 +59,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webmock", require: false
 end
+
+gem "colorize", "~> 1.1"
