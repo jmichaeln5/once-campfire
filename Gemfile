@@ -48,12 +48,8 @@ gem "thruster"
 group :development, :test do
   gem "debug"
   gem "rubocop-rails-omakase", require: false
-<<<<<<< HEAD
   gem "bundler-audit", require: false
   gem "faker", require: false
-=======
-  gem "faker"
->>>>>>> ce5a18d (Changed ruby version + added colorize gem)
   gem "brakeman", require: false
 end
 

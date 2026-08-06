@@ -80,5 +80,6 @@ Rails.application.configure do
   config.action_controller.raise_on_missing_callback_actions = true
 
   # Visit /rails/locks to see the locks
-  config.middleware.insert_before Rack::Sendfile, ActionDispatch::DebugLocks
+  # config.middleware.insert_before Rack::Sendfile, ActionDispatch::DebugLocks # 👈🏾 O.G.
+  config.middleware.insert_before 0, ActionDispatch::DebugLocks                # 👈🏾 B.G.
 end
