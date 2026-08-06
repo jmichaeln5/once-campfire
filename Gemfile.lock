@@ -122,8 +122,13 @@ GEM
       xpath (~> 3.2)
     chunky_png (1.4.0)
     colorize (1.1.0)
+<<<<<<< HEAD
     concurrent-ruby (1.3.7)
     connection_pool (2.5.5)
+=======
+    concurrent-ruby (1.3.5)
+    connection_pool (2.5.3)
+>>>>>>> ce5a18d (Changed ruby version + added colorize gem)
     crack (1.0.0)
       bigdecimal
       rexml
